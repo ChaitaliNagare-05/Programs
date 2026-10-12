@@ -1,8 +1,9 @@
- //Aproach 4
+package C_Programming.CPP_Programming.Java_Programming;
+ //Aproach 3
 
  import java.util.*;
  class Arithmetic{
-    public  int Addition(int iNo1,  int iNo2)  //why static unnecesary staic method  
+    public static int Addition(int iNo1,  int iNo2)
     {
         int iAns = 0;
         iAns=iNo1+iNo2;
@@ -12,7 +13,7 @@
     }
 
  }
- class Program39{
+ class Program37{
     
     public static void main(String[] A){
         
@@ -43,4 +44,3 @@
  } 
     
 // two classes created
-// static removed 

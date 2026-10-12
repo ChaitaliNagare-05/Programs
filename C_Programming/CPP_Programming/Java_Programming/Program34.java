@@ -1,8 +1,9 @@
- //Aproach 3
+package C_Programming.CPP_Programming.Java_Programming;
+ //Aproach 2
 
  import java.util.*;
- class Arithmetic{
-    public static int Addition(int iNo1,  int iNo2)
+ class Program34{
+    public int Addition(int iNo1,  int iNo2)
     {
         int iAns = 0;
         iAns=iNo1+iNo2;
@@ -10,10 +11,6 @@
 
 
     }
-
- }
- class Program37{
-    
     public static void main(String[] A){
         
         Scanner scanner = null;
@@ -27,9 +24,9 @@
         System.out.println("Enter second number:");
         iValue2=scanner.nextInt();
 
-        iResult=Arithmetic.Addition(iValue1,iValue2);   //class name+method name
+        iResult=Addition(iValue1,iValue2); //error
         
-        System.out.println("Addition is: "+iResult);
+        System.out.println("Addition is: "+ iResult);
 
 
        
@@ -42,4 +39,3 @@
     }
  } 
     
-// two classes created

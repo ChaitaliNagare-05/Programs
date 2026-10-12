@@ -1,8 +1,10 @@
- //Aproach 3
+ //Aproach 4
 
  import java.util.*;
+
+import C_Programming.CPP_Programming.Java_Programming.Arithmetic;
  class Arithmetic{
-    public static int Addition(int iNo1,  int iNo2)
+    public  int Addition(int iNo1,  int iNo2)  //why static unnecesary staic method  
     {
         int iAns = 0;
         iAns=iNo1+iNo2;
@@ -12,7 +14,7 @@
     }
 
  }
- class Program36{
+ class Program39{
     
     public static void main(String[] A){
         
@@ -27,7 +29,7 @@
         System.out.println("Enter second number:");
         iValue2=scanner.nextInt();
 
-        iResult=Addition(iValue1,iValue2); 
+        iResult=Arithmetic.Addition(iValue1,iValue2);   //class name+method name
         
         System.out.println("Addition is: "+iResult);
 
@@ -43,3 +45,4 @@
  } 
     
 // two classes created
+// static removed 

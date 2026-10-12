@@ -1,3 +1,4 @@
+package C_Programming.CPP_Programming.Java_Programming;
  import java.util.Scanner; 
  class Program22{
     public static void main(String[] A){

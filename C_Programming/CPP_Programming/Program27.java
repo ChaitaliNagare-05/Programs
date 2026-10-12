@@ -1,16 +1,16 @@
- //bad progarmming practice to start with *
- class Program28{
+package C_Programming.CPP_Programming;
+ import java.util.*;  //bad progarmming practice to start with *
+ class Program27{
     public static void main(String[] A){
-        Scanner scanner = null;
         String sName = null;
-       
+        String sName = null;
         int iAge=0;
-        float fMarks = 0.0f;
+        float Marks = 0.0;
 
-        scanner = new Scanner(System.in);
+        Scanner sobj=new Scanner(System.in); 
 
         System.out.println("Enter your name:");
-        sName = scanner.next(); //Exception
+        iName = scanner.next();
 
         System.out.println("Enter your age:");
         iAge = scanner.nextInt();

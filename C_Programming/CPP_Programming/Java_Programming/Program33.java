@@ -1,15 +1,8 @@
- //Aproach 2
+package C_Programming.CPP_Programming.Java_Programming;
+ //Aproach 1
 
  import java.util.*;
- class Program34{
-    public int Addition(int iNo1,  int iNo2)
-    {
-        int iAns = 0;
-        iAns=iNo1+iNo2;
-        return iAns;
-
-
-    }
+ class Program33{
     public static void main(String[] A){
         
         Scanner scanner = null;
@@ -23,9 +16,9 @@
         System.out.println("Enter second number:");
         iValue2=scanner.nextInt();
 
-        iResult=Addition(iValue1,iValue2); //error
+        iResult=iValue1+iValue2;  
         
-        System.out.println("Addition is: "+ iResult);
+        System.out.println("Addition is: + iResult");
 
 
        
@@ -38,3 +31,4 @@
     }
  } 
     
+
